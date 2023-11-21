@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.bank-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.amount-container {
+  background-color: aqua;
+  padding: 30px 60px;
+  border-radius: 5px;
+}
+.amount-content {
+  text-align: center;
+}
+.amount-content h1 {
+  font-size: 50px;
+}
+.bank-Deposit-Withdraw {
+  display: flex;
+  gap: 20px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input-container input {
+  padding: 10px;
+}
+.input-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.input-container button:hover {
+  background-color: rgb(218, 196, 168);
+}
